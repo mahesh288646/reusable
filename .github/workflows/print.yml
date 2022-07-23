@@ -9,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: output the memory
+      run: echo "total memory successfully output"
