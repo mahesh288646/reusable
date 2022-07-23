@@ -1,13 +1,13 @@
-name: Compliance1
+name: WelcomeJob
 
 on:
   workflow_call:
 
 jobs:
   my-job:
-    name: Semantics
+    name: WelcomeJob1
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: output the memory
-      run: echo "total memory successfully output"
+    - name: Welcome Message
+      run: echo "Hello World"
